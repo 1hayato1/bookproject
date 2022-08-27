@@ -1,0 +1,19 @@
+# Pythonのキャッシュが自動生成されているので除外
+__pycache__/
+
+# 環境変数は除外
+.env
+
+# 環境変数は除外
+/myvemv/
+
+# mediaディレクトリに.gitleepというファイルを作成し、それ以外は除外
+/media/*
+!/media/.gitkeep
+
+# staticディレクトリに.gitleepというファイルを作成し、それ以外は除外
+/static/*
+!/static/.gitkeep
+
+# DBは除外
+db.sqlite3
