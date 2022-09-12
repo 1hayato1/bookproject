@@ -17,6 +17,7 @@ def index_view(request):
     page_number = request.GET.get('page',1)
     page_obj = paginator.page(page_number)
 
+
     return render(
         request,
         'book/index.html',
